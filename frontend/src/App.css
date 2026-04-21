@@ -1,0 +1,26 @@
+.consultaSection {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  height: 500px;
+}
+
+.consultas {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  border: solid black 2px;
+}
+
+.consultas p{
+  color: black;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 20%;
+  border: solid black 2px;
+  padding: 10px;
+}

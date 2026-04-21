@@ -1,0 +1,12 @@
+.services {
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    background-color: green;
+}
+
+.services h1 {
+    text-align: center;
+    padding-top: 5px;
+}

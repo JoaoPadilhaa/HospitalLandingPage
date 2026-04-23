@@ -1,7 +1,7 @@
 .services {
+    margin-top: 2%;
     align-items: center;
     width: 80%;
-    height: 50px;
     margin-left: 10%;
     background-color: green;
 }
@@ -9,4 +9,18 @@
 .services h1 {
     text-align: center;
     padding-top: 5px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
 }

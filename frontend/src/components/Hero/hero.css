@@ -5,6 +5,7 @@
     background-color: blue;
     width: 80%;
     margin-left: 10%;
+    height: 700px;
 }
 
 .texts {
@@ -15,9 +16,16 @@
     padding-right: 8%;
 }
 
-.btn {
-    margin-top: 2%;
-    padding: 10px 10px;
-    border-radius: 10px;
-    border: 2px solid black;
+.btnhero {
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #0e6fee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnhero:hover {
+    background-color: #0b5cb6;
 }

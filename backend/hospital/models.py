@@ -38,6 +38,8 @@ class Medico(models.Model):
          ('feminino', 'Feminino')
       ]
    )
+   especialidade = models.CharField(max_length=30)
+   foto = models.CharField(max_length=200)
 
    def __str__(self):
         return self.nome

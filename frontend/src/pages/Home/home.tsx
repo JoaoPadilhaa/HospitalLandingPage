@@ -1,5 +1,8 @@
 import Hero from "../../components/Hero/hero";
 import Ourservices from "../../components/SectionServices/services";
+import AboutUs from "../../components/AboutUs/aboutus";
+import Doctors from "../../components/Doctors/doctors";
+
 
 function Home() {
   return (
@@ -10,6 +13,14 @@ function Home() {
 
       <section className="services">
         <Ourservices />
+      </section>
+      
+      <section className="aboutus">
+        <AboutUs />
+      </section>
+
+      <section className="doctors">
+        <Doctors />
       </section>
     </main>
 

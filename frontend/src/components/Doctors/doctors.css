@@ -1,0 +1,29 @@
+.doctors {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.doctortext {
+    width: 80%;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.doctortext h2 {
+    padding-bottom: 2%;
+}
+
+.doctor {
+    display: flex;
+    gap: 80px;
+}
+
+.doctor h2{
+    padding-left: 32%;
+}

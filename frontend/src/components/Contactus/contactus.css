@@ -1,0 +1,45 @@
+.ContactUssss {
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    background-color: lab(2.74% 0 0 / 0.849);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.textsContact h1, h3 {
+    color: white;
+    margin-left: 20%;
+}
+
+.textsContact h1 {
+    padding-top: 5%;
+}
+
+.textsContact h3 {
+    margin-top: 100px;
+}
+
+.btnContactUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btnContactUs:hover {
+    background-color: #1976D2;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(33, 150, 243, 0.3);
+}

@@ -40,6 +40,10 @@ class Medico(models.Model):
    )
    especialidade = models.CharField(max_length=30)
    foto = models.CharField(max_length=200)
+   crm = models.CharField(max_length=20)
+   formacao = models.CharField(max_length=40)
+   descricao = models.CharField(max_length=100)
+   horario_atendimento = models.CharField(max_length=30)
 
    def __str__(self):
         return self.nome
@@ -51,6 +55,6 @@ class Consulta(models.Model):
    data_consulta = models.DateTimeField(auto_now_add=True)
 
    def __str__(self):
-        return self.nome
+        return self.motivo_da_consulta
 
 

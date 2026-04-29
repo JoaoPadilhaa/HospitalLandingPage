@@ -1,35 +1,161 @@
 .hero {
+
+    width: 80%;
+
+    min-height: 700px;
+
+    margin: 50px auto;
+
+    padding: 40px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
-    width: 80%;
-    margin-left: 10%;
-    height: 700px;
+
+    gap: 40px;
+
+    background-color: hwb(0 96% 4%);
+
+    border-radius: 24px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+    box-sizing: border-box;
 }
+
+
+/* TEXTOS */
 
 .texts {
-    padding-left: 8%;
+
+    flex: 1;
 }
+
+.texts h1 {
+
+    font-size: 3rem;
+
+    color: #1e293b;
+
+    margin-bottom: 25px;
+
+    line-height: 1.2;
+}
+
+.texts p {
+
+    font-size: 1.2rem;
+
+    line-height: 1.8;
+
+    color: #555;
+
+    margin-bottom: 30px;
+}
+
+
+/* IMAGEM */
 
 .heroimg {
-    padding-right: 8%;
+
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
 }
 
+.heroimg img {
+
+    width: 100%;
+
+    max-width: 500px;
+
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* BOTÃO */
+
 .btnhero {
-    padding: 12px 32px;
+
+    padding: 14px 36px;
+
     background-color: #2196F3;
+
     color: white;
+
     border: none;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 10px;
+
+    font-size: 1rem;
     font-weight: 600;
+
     cursor: pointer;
+
     transition: all 0.3s ease;
 }
 
 .btnhero:hover {
+
     background-color: #1976D2;
-    transform: translateY(-2px);
+
+    transform: translateY(-3px);
+
     box-shadow: 0 6px 16px rgba(33, 150, 243, 0.3);
+}
+
+
+
+/* ===================== */
+/* RESPONSIVIDADE MOBILE */
+/* ===================== */
+
+@media (max-width: 768px) {
+
+    .hero {
+
+        width: 95%;
+
+        min-height: auto;
+
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+        padding: 30px 20px;
+    }
+
+    .texts {
+
+        width: 100%;
+    }
+
+    .texts h1 {
+
+        font-size: 2rem;
+    }
+
+    .texts p {
+
+        font-size: 1rem;
+    }
+
+    .heroimg {
+
+        width: 100%;
+    }
+
+    .heroimg img {
+
+        max-width: 320px;
+    }
+
+    .btnhero {
+
+        width: 100%;
+
+        max-width: 300px;
+    }
 }

@@ -1,29 +1,103 @@
 .doctors {
+
     width: 80%;
-    margin: 0 auto;
-    background-color: blue;
+
+    margin: 50px auto;
+
+    padding: 50px 40px;
+
+    background-color: hsl(0, 0%, 94%);
+
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    border-radius: 24px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+    box-sizing: border-box;
 }
 
 .doctortext {
+
     width: 80%;
-    padding-top: 5%;
+
     text-align: center;
-    padding-bottom: 3%;
+
+    padding-bottom: 40px;
 }
 
 .doctortext h2 {
-    padding-bottom: 2%;
+
+    padding-bottom: 20px;
+
+    font-size: 2.2rem;
+
+    color: #0077cc;
+}
+
+.doctortext p {
+
+    font-size: 1.1rem;
+
+    line-height: 1.7;
+
+    color: #555;
 }
 
 .doctor {
+
+    width: 100%;
+
     display: flex;
-    gap: 80px;
+    justify-content: center;
+
+    gap: 40px;
+}
+.doctor > * {
+    flex: 1;
+    max-width: 250px;
 }
 
-.doctor h2{
-    padding-left: 32%;
+.doctor h2 {
+
+    padding-left: 0;
+
+    text-align: center;
+
+    color: #1e293b;
+}
+
+@media (max-width: 768px) {
+
+    .doctors {
+
+        width: 95%;
+
+        padding: 30px 20px;
+    }
+
+    .doctortext {
+
+        width: 100%;
+    }
+
+    .doctortext h2 {
+
+        font-size: 1.8rem;
+    }
+
+    .doctortext p {
+
+        font-size: 1rem;
+    }
+
+    .doctor {
+
+        flex-direction: column;
+        align-items: center;
+
+        gap: 25px;
+    }
 }

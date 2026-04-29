@@ -1,0 +1,82 @@
+.medics {
+    min-height: 100vh;
+    padding: 50px 40px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+
+    background: #f4f9ff;
+}
+
+.medics div {
+    background: white;
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+    transition: all 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 20px;
+}
+
+.medics div:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 10px 30px rgba(0, 153, 255, 0.2);
+}
+
+.medics img {
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+
+    border-bottom: 4px solid #0099ff;
+}
+
+.medics p {
+    margin: 8px 20px;
+
+    color: #333;
+    line-height: 1.5;
+
+    font-size: 0.98rem;
+}
+
+.medics p:nth-of-type(1) {
+    margin-top: 20px;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    color: #0077cc;
+}
+
+.medics p:nth-of-type(2) {
+    font-weight: 600;
+    color: #0099ff;
+}
+
+.medics p:nth-of-type(5) {
+    color: #555;
+}
+
+@media (max-width: 768px) {
+
+    .medics {
+        padding: 30px 20px;
+    }
+
+    .medics img {
+        height: 240px;
+    }
+
+    .medics p:nth-of-type(1) {
+        font-size: 1.2rem;
+    }
+}

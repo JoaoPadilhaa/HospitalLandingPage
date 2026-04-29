@@ -11,7 +11,7 @@ function ContactUs(){
 
             <div>
                 <Buttonn
-                    name="Contact Us"
+                    name="Entre em Contato"
                     className="btnContactUs"/>
             </div>
         </section>

@@ -1,9 +1,9 @@
-import "./criarconsulta.css"
+import MarcarConsulta from "../../components/BookAppointment/bookappointment";
 
 function CriarConsulta() {
     return (
         <section className="criarConsultaSection">
-            <h1>Marcar Consulta</h1>
+            <MarcarConsulta/>
         </section>
     )
 }

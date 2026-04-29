@@ -12,10 +12,11 @@ function AboutUs() {
             <div className="textaboutus">
                 <h2>Sobre nós</h2>
                 <h3>Nós ajudamos sua saúde</h3>
-                <p>This profile describes the activities of health services and medical support as 
-                    well as the facilities and conditions of the General Hospital which is reflected 
-                    in the general public served from all groups, religions and beliefs, ethnicity and 
-                    the level and frequency of bed occupancy which continues to increase significantly.</p>
+                <p>Nossa instituição hospitalar é dedicada a oferecer serviços de saúde de qualidade, atendimento 
+                    humanizado e suporte médico especializado para toda a comunidade. Contamos com profissionais capacitados, 
+                    estrutura moderna e um ambiente preparado para atender pacientes de diferentes necessidades, sempre priorizando o 
+                    bem-estar, a segurança e a confiança de cada pessoa atendida. Nosso compromisso é proporcionar cuidados acessíveis e eficientes, 
+                    contribuindo continuamente para a melhoria da saúde e da qualidade de vida da população.</p>
                     <MyButton
                         name="Mais sobre nós" className="btnabout"/>
             </div>

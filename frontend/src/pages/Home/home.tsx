@@ -4,6 +4,7 @@ import AboutUs from "../../components/AboutUs/aboutus";
 import Doctors from "../../components/Doctors/doctors";
 import Testimonials from "../../components/Testimonials/testimonials";
 import ContactUs from "../../components/Contactus/contactus";
+import Foterr from "../../components/Footer/footer";
 
 
 function Home() {
@@ -31,6 +32,10 @@ function Home() {
 
       <section className="ContactUss">
         <ContactUs />
+      </section>
+
+      <section className="Foterrzin">
+        <Foterr/>
       </section>
     </main>
 

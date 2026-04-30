@@ -4,7 +4,7 @@
 
     margin: 50px auto;
 
-    padding: 40px;
+    padding: 70px;
 
     display: flex;
     justify-content: space-between;
@@ -179,6 +179,12 @@
     transform: translateY(-4px);
 }
 
+.aviso {
+    color: green!important;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
 
 @media (max-width: 768px) {
 

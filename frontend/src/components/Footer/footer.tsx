@@ -6,6 +6,7 @@ import { enviarEmail } from "../../services/email";
 
 function Foterr() {
     const[email, setEmail] = useState<string>("");
+    const [sucesso, setSucesso] = useState(false);
 
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement>
@@ -13,6 +14,15 @@ function Foterr() {
         setEmail(e.target.value);
     };
 
+    const handleSubmit = async (e: any) => {
+       try{
+            await enviarEmail(email);
+            setSucesso(true);
+       } catch (error) {
+        console.log("Erro ao enviar email:", error);
+       }
+        
+    }
     return (
         <section className="footer">
             <div className="textfooter">
@@ -43,7 +53,8 @@ function Foterr() {
                 <Butonn
                     name="Inscreva-se"
                     className="btnFooter"
-                    onClick={() => enviarEmail(email)}/>
+                    onClick={handleSubmit}/>
+                {sucesso && <p className="aviso">Cupom enviado com sucesso!</p>}
             </div>
         </section>
     )
